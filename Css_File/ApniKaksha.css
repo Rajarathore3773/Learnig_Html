@@ -1,0 +1,9 @@
+h3{
+color :red;	
+}
+
+
+/* Dashed red border */
+hr {
+  border-top: 1px dashed red;
+}
