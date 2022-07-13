@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Payment form</title>
+</head>
+
+<body>
+	<form action="">
+		<h1>Payment form</h1>
+		<h1>Contact Details</h1>
+		<p>Required fields is followed by *</p>
+		<p>Name:* <input type="text" name="name" required></p>
+
+		<fieldset>
+			<legend>Gender *</legend>
+			Male <input type="radio" name="gender" id="male" required>
+			Female  <input type="radio" name="gender" id="male" required>
+			Other<input type="radio" name="gender" id="male">
+		</fieldset>
+
+		<p>Address: <textarea name="address" id="address" row="100" col="50"> </textarea></p>
+		<p>Email:* <input type="email" name="email" id="email" required></p>
+		<p>PinCode:* <input type="number" name="PinCode" id="PinCode" required></p>
+		<h1> Payment details</h1>
+		<p> CardType:*
+			<select name="card_type" id="card_type" required>
+				<option value="">--Select a CardType--</option>
+				<option value="VisaCard">Visa</option>
+				<option value="RupeeCard">Rupee</option>
+				<option value="MasterCard">Master</option>
+			</select>
+		</p>
+		<p>Card Number:* <input type="number" name="card_number" id="crad_number" required></p>
+		<p>Expiration Date:* <input type="date" name="exp_date" id="exp_date" required> </p>
+		<p>CVV: <input type="password" name="CVV" id="CVV" required></p>
+		<button type="submit" onclick="alert('Payment Succesfull!!')" required>PayNow :</button>
+	</form>
+</body>
+
+</html>
