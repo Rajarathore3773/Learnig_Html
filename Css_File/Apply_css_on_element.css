@@ -1,0 +1,57 @@
+
+body h1+p .bg { /*psedo class selector*/
+	color :yellow;
+ background-color:black;
+ padding: 5px;
+ 
+
+}
+h1,p{ /*Combined selector*/
+	color:darkred;
+}
+a:hover { /*hover selector*/
+	color :red;
+	text-decoration: none;
+	}
+
+.special{ /* class selector*/
+	color: orange;
+	font-weight:200;  	  		               
+	font-family:cursive;
+}
+
+ li [em]{ /* */
+	color:blue;
+background-color: black;
+}
+
+h1~p{ /*General sibling selector*/
+	
+	font-size: 200%;
+}
+h2+p{/*Adjasent sibling selector*/
+	font-family:fantasy;
+}
+#heading{/*Id selcetor*/
+	color:darkorange;
+	background-color: black;
+}
+
+p #one{ /*Paragarph id selector*/
+	color:darkgreen;
+	background-color: black;
+}
+li[class]{ /* Attribute selector */
+	font-size: 100%	;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color :darkblue;
+	background-color: black;
+	list-style-type: lower-roman;
+}
+
+li[class ="a"]{ /* particular attribute selector*/
+	font-size: 100%;
+	font-style: italic;
+	color:red;
+	background-color:blue;
+}
